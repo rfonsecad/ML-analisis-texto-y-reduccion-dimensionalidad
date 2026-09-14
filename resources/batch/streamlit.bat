@@ -3,7 +3,7 @@ cd ..
 cd ..
 setlocal
 set PROJECTPATH=%cd%
-set PYTHONDIR-%PYTHONPATH%
+set PYTHONDIR=%PYTHONPATH%
 echo "Python installed at: '%PYTHONDIR%'"
 echo "My project path is: '%PROJECTPATH%'"
 set MAINPATH=%PROJECTPATH%\streamlit_app.py
