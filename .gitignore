@@ -1,0 +1,61 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---------- Entornos virtuales ----------
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ---------- Editores e IDE ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------- Sistema operativo ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Streamlit ----------
+# La configuración del tema se versiona; los secretos nunca.
+.streamlit/secrets.toml
+
+# ---------- Variables de entorno y credenciales ----------
+.env
+.env.*
+*.pem
+*.key
+
+# ---------- Logs y temporales ----------
+*.log
+*.tmp
+*.bak
+tmp/
+temp/
+
+# ---------- Datos NLTK descargados localmente ----------
+nltk_data/
+
+# ---------- Modelos y artefactos ----------
+# Se versionan los modelos entrenados en formato joblib (los necesita Streamlit).
+# Se ignoran otros formatos de serialización y artefactos intermedios.
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.npz
+!resources/models/*.joblib
